@@ -2,6 +2,7 @@ package conv
 
 import "math"
 
+//funkjson for de konvergeringer
 func FahrenheitToCelsius(value float64) float64 {
 	celsius := (value - 32) * (5.0 / 9.0)
 	return math.Round(celsius*100) / 100

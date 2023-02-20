@@ -6,6 +6,7 @@ import (
 	"is105test/conv"
 )
 
+//definere variabler
 var fahrenheit float64
 var celsius float64
 var kelvin float64
@@ -18,6 +19,7 @@ func init() {
 	flag.StringVar(&out, "out", "C", "beregne temperatur i C - celsius, F - farhenheit, K- Kelvin")
 }
 
+//funksjon for flag
 func main() {
 	flag.Parse()
 	if isFlagPassed("out") {
