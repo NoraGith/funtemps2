@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"is105test/conv"
+	"github.com/NoraGith/funtemps2/tree/main/conv"
 )
 
 //definere variabler
