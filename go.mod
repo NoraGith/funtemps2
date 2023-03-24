@@ -1,3 +1,3 @@
-module github.com/NoraGith/funtemps2/tree/main/conv
+module github.com/NoraGith/funtemps2
 
 go 1.19
