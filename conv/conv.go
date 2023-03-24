@@ -1,4 +1,4 @@
-package conv
+package github.com/NoraGith/funtemps2/tree/main/conv
 
 import "math"
 
